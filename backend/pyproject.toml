@@ -1,0 +1,20 @@
+[tool.pyright]
+
+pythonVersion = "3.9"
+
+venvPath = "/home/jma/.virtualenvs/scrum-board"
+
+
+
+[tool.pyright.analysis]
+
+typeCheckingMode = "strict"
+
+
+
+[tool.pyright.analysis.extraPaths]
+paths = [
+  "/home/jma/.virtualenvs/scrum-board/lib/python*/site-packages",
+  "/home/jma/.virtualenvs/scrum-board/lib/python*/site-packages/django-stubs",
+  "/home/jma/.virtualenvs/scrum-board/lib/python*/site-packages/django"
+]
